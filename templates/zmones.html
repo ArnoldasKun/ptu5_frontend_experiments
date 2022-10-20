@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "lt">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Zmones</title>
+    </head>
+    <body>
+        <h1>Zmones</h1>
+        <h3>Geru studentu sarasas</h3>
+        <!--horizontal line-->
+        <hr>
+        <ol>
+        <!--sarasa padarom stulpelyje-->
+        {% for zmogus in zmones%}
+            <li>{{ zmogus }}</li>
+        <!--uzsidaro su endfor-->   
+        {% endfor %}
+        </ol>
+    </body>
+    {# komentarams naudoti sita modeli, nesimatys #}
+</html>
